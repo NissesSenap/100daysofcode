@@ -43,3 +43,15 @@ Lets try this Hexagonal design thing :)
 ### gRPC
 
 [Building and Basic API with gRPC and Protofbuf](https://www.youtube.com/watch?v=Y92WWaZJl24)
+
+## Learning stuff
+
+### Debug
+
+#### Check pkg paths
+
+When I played around with cobra I got some issues with my pkg path when I did cobra init.
+
+A good way to see that it functions as it should was:
+
+```go list all```
